@@ -1,2 +1,9 @@
 Keylogger started
-Key pressed: uKey pressed: jKey pressed: kKey pressed: jKey pressed: <<Super_L>>Key pressed: jKey pressed: kKey pressed: jKey pressed: kKey pressed: jKey pressed: <<Super_L>>Key pressed: jKey pressed: kKey pressed: jKey pressed: kKey pressed: jKey pressed: kKey pressed: <<Super_L>>Key pressed: <<Super_L>>Key pressed: <<Super_L>>Key pressed: 3Key pressed: <<Super_L>>Key pressed: <<Super_L>>Key pressed: <<Super_L>>Key pressed: <<Super_L>>Key pressed: <<Super_L>>Key pressed: <<Super_L>>Key pressed: <<Super_L>>Key pressed: <<Super_L>>Key pressed: <<Super_L>>Key pressed: <<Super_L>>Key pressed: gKey pressed: gKey pressed: kKey pressed: kKey pressed: kKey pressed: gKey pressed: gKey pressed: gKey pressed: gKey pressed: kKey pressed: kKey pressed: <<Caps_Lock>>Key pressed: <<Caps_Lock>>Key pressed: gKey pressed: gKey pressed: <<Super_L>>
+
+[2025-01-15 11:30:28] FocusIn: Keypress Duplication Issue — Mozilla Firefox
+
+[2025-01-15 11:30:28] FocusIn: Keypress Duplication Issue — Mozilla Firefox
+<Super_L>
+[2025-01-15 11:30:32] FocusIn: Keypress Duplication Issue — Mozilla Firefox
+
+[2025-01-15 11:30:32] FocusIn: Keypress Duplication Issue — Mozilla Firefox
